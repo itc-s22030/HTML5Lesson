@@ -1,0 +1,42 @@
+.body {
+  background-color: #EDC;
+  width: 100%;
+  min-height: 100vh;
+  background-size: auto;
+  padding: 30px;
+  margin: -10px; 
+}
+
+.box {
+  background-color: #FFF;
+  border: 1px solid #CCC;
+  box-shadow: 0 0 10px #CCC inset;
+  font-family: serif;
+  text-align: center;
+  width: 400px;
+}
+
+.box > .boxhead {
+  background: #753;
+  box-shadow: 0 0 10px #333 inset;
+  padding: 10px;
+}
+
+.box > .boxhead > h1 {
+  color: #FFF;
+  margin: 0;
+  text-shadow: 0 -2px 0 #333;
+}
+
+.box > .boxbody {
+  padding: 10px;
+}
+
+.box > .boxbody > h2 {
+  font-size: 18px;
+}
+
+.box > .boxbody > ul {
+  list-style-type: none;
+  padding: 0;
+}
